@@ -2,6 +2,10 @@ This is an example e-commerce site written in HTML with CSS and Snipcart.  Thoug
 
 To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
 
+OR
+
+Create a GitHub account (it is suggested for many deployments) then "FORK" this repository.  You can make all your edits within GitHub.
+
 ## To customize this package:
 
 ### Files to Edit
