@@ -64,6 +64,18 @@ a:hover {
         .logo-background {
             display: none;
         }
+        .logo-homepage {
+            background-size: 35vw;
+            background-repeat: no-repeat;
+            height: 35vw;
+            width: 35vw;
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
     }
   
   @media all and (min-width: 771px ) {
@@ -98,6 +110,18 @@ a:hover {
             height: 75vw;
             width: 75vw;
             opacity: 5%;
+        }
+        .logo-homepage {
+            background-size: 35vw;
+            background-repeat: no-repeat;
+            height: 35vw;
+            width: 35vw;
+            margin: 0;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
     }
 
