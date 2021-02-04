@@ -33,7 +33,7 @@ To use this template you will need to create a Snipcart account (free).  You do 
 
 ### Deployment
 
-The simplicity of this site allows for a very wide range of deployments.  For a simple method that uses GitHub and Netlify, click on the icon under deploy here:
+The simplicity of this site allows for a very wide range of deployments.  For a method that uses GitHub and Netlify, click on the icon under deploy here:
 
 https://majordomo.consulting/training/
 
