@@ -1,5 +1,7 @@
 This is an example e-commerce site written in HTML with CSS and Snipcart.  Though there are better alternatives for developers or the less cost-conscious, the simplicity of this package is still relevant.
 
+To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
+
 ## To customize this package:
 
 ### Files to Edit
