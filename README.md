@@ -5,7 +5,7 @@ This is an example e-commerce site written in HTML with CSS and Snipcart.  Thoug
 ### Files to Edit
 
 1) css/default.css - font and colour values
-2) /img - places your images here
+2) /img - place your images here
 3) /products/index.html - the "shop" page with Snipcart integration
 4) blank.html - a blank template page
 5) index.html - the homepage
