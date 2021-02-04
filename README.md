@@ -14,6 +14,8 @@ To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
 6) landing-2.html - full screen image example homepage
 7) privacy.html - privacy policy blank page
 
+* to change the colour of the browser window - edit the "theme-color" meta at the top of each page
+
 ### Snipcart Setup
 
 To use this template you will need to create a Snipcart account (free).  You do not need to enter your credit card details if only accepting in-person payments.
