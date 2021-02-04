@@ -4,7 +4,7 @@ To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
 
 OR
 
-Create a GitHub account (it is suggested for many deployments) then "FORK" this repository.  You can make all your edits within GitHub.
+Create a GitHub account (it is suggested for many deployments) then "FORK" this repository.  You can make all your edits within GitHub by clicking the pencil icon that will appear.
 
 ## To customize this package:
 
