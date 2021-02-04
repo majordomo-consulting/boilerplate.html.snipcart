@@ -11,6 +11,13 @@ a:hover {
     text-decoration: none;
     color: #db4283;
 }
+.business-name {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #db4283;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
 
 /* BE CAREFUL EDITING UNDER THIS LINE */
 .center {
@@ -18,13 +25,6 @@ a:hover {
 }
 .footer {
     padding-top: 10vh;
-}
-.business-name {
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: #db4283;
-    font-family: 'Lobster', cursive;
-    font-size: 4rem;
 }
 .telephone-number {
     font-weight: 800;
