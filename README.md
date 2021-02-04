@@ -16,7 +16,7 @@ Create a GitHub account (it is suggested for many deployments) then "FORK" this 
 4) blank.html - a blank template page
 5) index.html - the homepage
 6) landing-2.html - full screen image example homepage
-7) privacy.html - privacy policy blank page
+7) /privacy/index.html - privacy policy blank page
 
 * to change the colour of the browser window - edit the "theme-color" meta at the top of each page
 
