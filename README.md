@@ -4,13 +4,13 @@ This is an example e-commerce site written in HTML with CSS and Snipcart.  Thoug
 
 ### Files to Edit
 
-css/default.css - font and colour values
-/img - places your images here
-/products/index.html - the "shop" page with Snipcart integration
-blank.html - a blank template page
-index.html - the homepage
-landing-2.html - full screen image example homepage
-privacy.html - privacy policy blank page
+1) ss/default.css - font and colour values
+2) /img - places your images here
+3) /products/index.html - the "shop" page with Snipcart integration
+4) blank.html - a blank template page
+5) index.html - the homepage
+6) landing-2.html - full screen image example homepage
+7) privacy.html - privacy policy blank page
 
 ### Snipcart Setup
 
