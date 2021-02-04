@@ -21,4 +21,4 @@ To use this template you will need to create a Snipcart account (free).  You do 
 3) At the bottom of the page, turn Deferred Payments to ON, then click 'CONFIGURE' - choose - 'Only allow deferred payments'
 4) Click on TAXES in the menu and CREATE NEW TAX - enter your details (e.g HST, CA, ON, 0.13)
 5) Click on Domains & URLs - the domain you put here MUST MATCH the location of the products folder - if it doesn't, YOUR CART WILL NOT WORK
-6) Go to API KEYS - COPY your PUBLIC TEST API KEY (yes the test key is all you will ever need if accepting in-person payments).  Look at the index file /products/index.html - at the bottom of the page, paste your API key.
+6) Go to API KEYS - COPY your PUBLIC TEST API KEY (the test key is all you will ever need if accepting in-person payments).  Look at the index file /products/index.html - at the bottom of the page, paste your API key.
