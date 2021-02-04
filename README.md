@@ -18,6 +18,8 @@ Create a GitHub account (it is suggested for many deployments) then "FORK" this 
 6) landing-2.html - full screen image example homepage
 7) /privacy/index.html - privacy policy blank page
 
+Notes:
+
 * to change the colour of the browser window - edit the "theme-color" meta at the top of each page
 
 ### Snipcart Setup
