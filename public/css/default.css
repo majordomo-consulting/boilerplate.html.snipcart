@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #9C2F5C;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #db4283;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.footer {
+    padding-top: 10vh;
+}
+
+.logo{background-image: url('../img/logo.png');}
+
+.logo-homepage {
+    background-size: 35vw;
+    background-repeat: no-repeat;
+    height: 35vw;
+    width: 35vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 770px ) {
+    /* CSS rules here for screens lower than 770px */
+        .header {
+            background-color: #E8CFD9;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            }
+        .mobile {
+            text-align: center;
+        }
+        .logo-header-mobile {
+            background-size: 75px;
+            background-repeat: no-repeat;
+            height: 75px;
+            width: 75px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .logo-header-desktop {
+            display:none;
+        }
+        .logo-background {
+            display: none;
+        }
+    }
+  
+  @media all and (min-width: 771px ) {
+    /* CSS rules here for screens above 770px */
+        .header {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 20vw;
+            padding-right: 20vw;
+            background-color: #E8CFD9;
+            }
+        .hide {
+            display: none;
+        }
+        .logo-header-desktop {
+            background-size: 75px;
+            background-repeat: no-repeat;
+            height: 75px;
+            width: 75px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .logo-header-mobile {
+            display: none;
+        }
+        .logo-background {
+            position: fixed;
+            bottom: -15vw;
+            left: -15vw;
+            background-size: 75vw;
+            background-repeat: no-repeat;
+            height: 75vw;
+            width: 75vw;
+            opacity: 5%;
+        }
+    }
+
+.business-name {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #db4283;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
+.telephone-number {
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.hours {
+    font-size: 0.8rem;
+}
+.product {
+    padding-bottom: 1.5rem;
+}
+.product-name {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.product-description {
+    font-weight: 300;
+}
+.product-price {
+    font-weight: 800;
+    color: #50C878;
+}
+.section-title {
+    font-weight: 800;
+    padding-top: 4rem;
+}
+
+.privacy-policy {
+    padding-top: 2rem;
+    font-size: 1.25rem;
+}
