@@ -10,7 +10,7 @@ Create a GitHub account (it is suggested for many deployments) then "FORK" this 
 
 ### Files to Edit
 
-1) css/default.css - font and colour values
+1) /css/default.css - font and colour values
 2) /img - place your logo in PNG format here - save as logo.png
 3) /products/index.html - the "shop" page with Snipcart integration
 4) blank.html - a blank template page
