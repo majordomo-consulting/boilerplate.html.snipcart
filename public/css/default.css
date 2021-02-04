@@ -139,3 +139,51 @@ a:hover {
     padding-top: 2rem;
     font-size: 1.25rem;
 }
+
+.social {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-animation: fadein 6s;
+            animation: fadein 6s;
+    margin-top: auto; }
+    .social ul {
+      -webkit-animation: fadein 6s;
+              animation: fadein 6s;
+      margin-top: auto; }
+      .social ul li {
+        display: inline-block;
+        margin-right: 8px; }
+        .social ul li a {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          cursor: pointer; }
+          .social ul li a .svg-icon {
+            padding: 4px;
+            width: 22px;
+            height: 22px;
+            margin: 0;
+            display: block; }
+          .social ul li a .svg-icon path,
+          .social ul li a .svg-icon polygon,
+          .social ul li a .svg-icon rect {
+            fill: #666666;
+            -webkit-transition: 1s;
+            transition: 1s; }
+          .social ul li a .svg-icon circle {
+            stroke: #666666;
+            stroke-width: 1; }
+        .social ul li a:hover .svg-icon path,
+        .social ul li a:hover .svg-icon polygon,
+        .social ul li a:hover .svg-icon rect {
+          fill: #FFFFFF;
+          -webkit-transition: 0.1s;
+          transition: 0.1s; }
