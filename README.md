@@ -7,7 +7,7 @@ To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
 ### Files to Edit
 
 1) css/default.css - font and colour values
-2) /img - place your images here
+2) /img - place your logo in PNG format here - save as logo.png
 3) /products/index.html - the "shop" page with Snipcart integration
 4) blank.html - a blank template page
 5) index.html - the homepage
