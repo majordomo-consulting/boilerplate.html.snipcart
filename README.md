@@ -22,6 +22,14 @@ Notes:
 
 * to change the colour of the browser window - edit the "theme-color" meta at the top of each page
 
+* after adding product images in the img folder, change occurances of:
+
+data-item-image="https://dummyimage.com/640x640/fff/aaa"
+
+to:
+
+data-item-image="../img/products/yourimage.jpg"
+
 ### Snipcart Setup
 
 To use this template you will need to create a Snipcart account (free).  You do not need to enter your credit card details if only accepting in-person payments.
