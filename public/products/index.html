@@ -10,6 +10,7 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <meta name="theme-color" content="#E8CFD9">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../icon.png">
   <link rel="stylesheet" href="../css/skeleton.css">
@@ -44,114 +45,119 @@
   <div class="container mobile">
   <!-- END OF HEADER SECTION -->
   <!-- BEGINNING OF PRODUCT CATALOGUE -->
-    
+  <div id="app">
+
   <div class="section-title">Category A</div><hr />
 
+  <ul>
+    <li v-for="product in products" :key="product.id">
   <div class="row">
     <div class="six columns">
       <div class="product">
-        <div class="product-name">first product</div>
-        <div class="product-description">first product description</div>
-        <div class="product-price">$4.99</div>
+        <div class="product-name">{{ product.title }}</div>
+        <div class="product-description">{{ product.description }}</div>
+        <div class="product-price">${{ product.price }}</div>
       </div>
     </div>
     <div class="six columns center">
       <button class="snipcart-add-item"
         data-item-url="/products/"
-        data-item-id="first-product"
-        data-item-image="https://dummyimage.com/300x300/ccc/aaa"
-        data-item-name="First Product"
-        data-item-price="4.99"
+        :data-item-id="product.id"
+        :data-item-image="product.image"
+        :data-item-name="product.title"
+        :data-item-price="product.price"
         >
         Add to cart
       </button>
     </div>
   </div>
   <hr class="hide" style="width:25%;" />
-
-  <div class="row">
-    <div class="six columns">
-      <div class="product">
-        <div class="product-name">second product</div>
-        <div class="product-description">second product description</div>
-        <div class="product-price">$3.99</div>
-      </div>
-    </div>
-    <div class="six columns center">
-      <button class="snipcart-add-item"
-        data-item-url="/products/"
-        data-item-id="second-product"
-        data-item-image="https://dummyimage.com/300x300/ccc/aaa"
-        data-item-name="Second Product"
-        data-item-price="3.99"
-        >
-        Add to cart
-      </button>
-    </div>
-  </div>
-  <hr class="hide" style="width:25%;" />
+</li>
+</ul>
 
   <div class="section-title">Category B</div><hr />
 
+  <ul>
+    <li v-for="product in moreproducts" :key="product.id">
   <div class="row">
     <div class="six columns">
       <div class="product">
-        <div class="product-name">third product</div>
-        <div class="product-description">third product description</div>
-        <div class="product-price">$8.99</div>
+        <div class="product-name">{{ product.title }}</div>
+        <div class="product-description">{{ product.description }}</div>
+        <div class="product-price">${{ product.price }}</div>
       </div>
     </div>
     <div class="six columns center">
       <button class="snipcart-add-item"
         data-item-url="/products/"
-        data-item-id="third-product"
-        data-item-image="https://dummyimage.com/300x300/ccc/aaa"
-        data-item-name="Third Product"
-        data-item-price="8.99"
+        :data-item-id="product.id"
+        :data-item-image="product.image"
+        :data-item-name="product.title"
+        :data-item-price="product.price"
         >
         Add to cart
       </button>
     </div>
   </div>
   <hr class="hide" style="width:25%;" />
+</li>
+</ul>
 
-  <div class="row">
-    <div class="six columns">
-      <div class="product">
-        <div class="product-name">fourth product</div>
-        <div class="product-description">fourth product description</div>
-        <div class="product-price">$9.99</div>
-      </div>
-    </div>
-    <div class="six columns center">
-      <button class="snipcart-add-item"
-        data-item-url="/products/"
-        data-item-id="fourth-product"
-        data-item-image="https://dummyimage.com/300x300/ccc/aaa"
-        data-item-name="Fourth Product"
-        data-item-price="9.99"
-        >
-        Add to cart
-      </button>
-    </div>
+
+
   </div>
-  <hr class="hide" style="width:25%;" />
 
 
 
 
 
-
-
-
-
-<!-- END OF PRODUCT CATALOGUE -->
-
+  <!-- END OF PRODUCT CATALOGUE -->
   <div class="footer"></div>
-<!-- YOU DONT NEED TO TOUCH ANYTHING BELOW THIS LINE -->
+  <!-- YOU DONT NEED TO TOUCH ANYTHING BELOW THIS LINE -->
   </div>
   <div class="logo logo-background"></div>
   <!-- SCRIPTS -->
+  <!-- BEGINNING OF VUE -->
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        products: [
+        { 
+          id: 'first-product', 
+          title: 'first product', 
+          description: 'first product description', 
+          image: 'https://dummyimage.com/300x300/ccc/aaa', 
+          price: '4.99'
+        },
+        { 
+          id: 'second-product', 
+          title: 'second product', 
+          description: 'second product description', 
+          image: 'https://dummyimage.com/300x300/ccc/aaa', 
+          price: '5.99'
+        },
+      ],
+      moreproducts: [
+        { 
+          id: 'third-product', 
+          title: 'third product', 
+          description: 'third product description', 
+          image: 'https://dummyimage.com/300x300/ccc/aaa', 
+          price: '8.99'
+        },
+        { 
+          id: 'fourth-product', 
+          title: 'fourth product', 
+          description: 'fourth product description', 
+          image: 'https://dummyimage.com/300x300/ccc/aaa', 
+          price: '9.99'
+        }
+      ],
+      }
+    })
+  </script>
+  <!-- END OF VUE -->
   <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
   <div id="snipcart" data-config-modal-style="side" data-api-key="ZjI1ZWM0YjYtNjM4YS00YTkzLTk3YWUtMjI4ZDc0M2NjMDYwNjM3NDc5ODAxMzI1MzM4MTcx" hidden></div>
   <script src="../js/modernizr-3.11.3.min.js"></script>
