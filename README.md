@@ -1,4 +1,4 @@
-This is an example e-commerce site with good ol' HTML, CSS and Snipcart.  Though there are better alternatives for developers or the less cost-conscious, the simplicity of this package is still relevant.  Following the steps provided, for many development sites the annual costs will only be for your domain ($15+/yr) paid to your DNS provider.
+This is a [demo](https://ecommerce.majordomo.consulting/) e-commerce site with good ol' HTML, CSS and Snipcart.  Though there are better alternatives for developers or the less cost-conscious, the simplicity of this package is still relevant.  Following the steps provided, for many development sites the annual costs will only be for your domain ($15+/yr) paid to your DNS provider.
 
 To download - click on the "CODE" button above, then "DOWNLOAD ZIP"
 
